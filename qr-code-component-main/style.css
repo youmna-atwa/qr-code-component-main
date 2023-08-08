@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(213 225 239);
+}
+.Structure-Layout {
+    display: grid;
+    place-items: center;
+    min-height:80vh;
+}
+.wrapper {
+    background-color: #fff;
+    padding: 13px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.QR-Box img {
+    width: 280px;
+    border-radius: 15px;
+}
+.QR-Info {
+    text-align: center;
+}
+.QR-Info p {
+    color: rgb(140 144 152);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+.QR-Info h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(218, 44%, 22%);
+}
+.attribution {
+    margin-block-start: 20px;
+}
